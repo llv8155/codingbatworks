@@ -10,14 +10,14 @@ cigarParty(70, true) → true
 
 public boolean cigarParty(int cigars, boolean isWeekend) {
   if (cigars >= 40 && cigars <= 60) 
-  // "successful when the number of cigars is between 40 and 60, inclusive"
+  // successful when the number of cigars is between 40 and 60, inclusive
   {
     return true;
   }
   else
   {
     if (isWeekend && cigars >= 40)
-    // "Unless it is the weekend, in which case there is no upper bound on the number of cigars"
+    // Unless it is the weekend, in which case there is no upper bound on the number of cigars"+
     {
       return true;
     }
